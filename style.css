@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: rgb(250, 247, 247);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+ 
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0;
+
+}
+
+.here a{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    
+}
+
+.nav-link li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;  
+}
+
+.nav-link li a:hover{
+    color: red;
+}
+
+#join{
+    margin-left: 10rem;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+
+#icon{
+    padding: 30px;
+    
+}
+#icon a{
+    color: black;
+    
+}
+
+.network{
+    display: flex;
+    margin: 80px 100px 80px 100px;
+    justify-content: space-between;
+}
+
+.learn{
+    font-size: x-large;
+    max-width: 20rem;
+    
+}
+
+.learn p{
+    font-size: large;
+    color: gray;
+}
+
+.learn a{
+    text-decoration: none;
+    background-color: red;
+    font-size: large;
+    padding: 15px;
+    color: white;
+}
+
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin-left:20rem ;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+  .story{
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 45rem;
+    font-size:large;
+    text-align: center;
+    margin: 80px 100px 80px 250px;
+  }
+
+  .story p{
+    color: gray;
+  }
+
+
+  .mission1{
+    display: flex;
+    justify-items: center;
+    max-width: 60rem;
+    text-align: center;
+    margin: 80px 200px 80px 200px;
+  }
+
+  .mission1 img{
+    padding: 1rem;
+  }
+
+  .mission1 p{
+    padding: 1.5rem 2rem 0 2rem;
+    color: gray;
+    font-size: smaller;
+    
+  }
+
+  .partners{
+    max-width: 60rem;
+    margin: 150px 200px 80px 200px;
+    text-align: center;
+    font-size: 23px;
+    
+  }
+
+  .partners p{
+    font-size: 18px;
+    color: gray;
+  }
+
+  .leading{
+    color: red;
+  }
+
+  .partner1{
+    margin: 80px 100px 80px 100px;
+
+  }
+.partner1 img{
+    padding: 1.8rem;
+} 
+
+.cohort{
+    display: flex;
+    margin: 80px 100px 80px 100px;
+    justify-content: space-between;
+}
+
+.web3{
+    max-width: 30rem;
+}
+.web3 h1{
+  font-size:40px;
+  text-align: center;
+}
+
+.web3-img img{
+    width: 500px;
+}
+
+.web3 p{
+  font-size: 20px;
+    color: gray;
+}
+
+.star{
+  display: flex;
+}
+
+.star img{
+  padding-right: 1rem;
+  height: 20px;
+}
+
+.blockchain{
+  display: flex;
+}
+
+.star1{
+  display: flex;
+}
+
+.star1 img{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  height: 20px;
+}
+
+
+.view-co a{
+  text-decoration: none;
+  margin-left: 100px;
+  border: 2px solid black;
+  padding: 0.9rem 3rem 0.9rem 3rem;
+  color: black;
+  
+  
+}
+.view-co1 a{
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 0.9rem 3rem 0.9rem 3rem;
+  color: black;
+  
+}
+
+.view-co1{
+  display: block;
+  margin-top: 50px;
+}
+
+.community{
+  text-align: center;
+  margin: 10rem;
+
+}
+
+.community p{
+  padding: 20px;
+  color: grey;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+}
+
+.community h2{
+  font-size: 40px;
+  font-weight: lighter;
+  
+}
+
+.community1 a{
+  border: 2px solid grey;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  margin-top: 20px;
+  background-color: white;
+}
+.community1 span{
+  padding: 10px;
+}
+
+.gallery{
+  margin: 15px 40px 20px 70px;
+}
+
+.gallery img{
+  width: 180px;
+  height: 200px;
+  padding: 7px;
+}
+
+.newsletter{
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  margin-top: 3rem;
+  
+  
+}
+
+.newsletter h1{
+  font-size: 40px;
+}
+
+.newsletter p{
+  margin-left: 12rem;
+  margin-right:12rem;
+  margin-bottom: 2rem;
+  color: gray;
+  padding: 2rem;
+}
+
+.form1 input{
+  
+  margin: 1rem;
+}
+#your-email{
+  padding: 1rem 10rem 1rem 1rem;
+  background-color: black;
+  border: 2px solid white;
+  font-size: large;
+  color: white;
+}
+
+#subscribe{
+  padding: 1rem 5rem 1rem 5rem;
+  font-size: large;
+  text-decoration: none;
+  background-color: white;
+  margin-left: 1rem;
+}
+
+.testimonial{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  
+}
+
+.testimonial h1{
+  font-size: 50px;
+  padding: 2rem;
+  
+}
+
+.testimonial p{
+  margin-left: 20rem;
+  margin-right:20rem;
+}
+
+.testimonial2{
+  width: 450px;
+  height: 80px;
+
+}
+
+.testify{
+  padding:2rem 4rem 2rem 2.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 18px;
+  color: gray;
+  line-height: 1.5rem;
+  background-color: white;
+  max-width: 22rem;
+}
+
+.img-john{
+  padding-top: 1rem;
+  display: flex;
+}
+
+.img-john p{
+  padding-left: 1rem ;
+  font-size: 16px;
+  
+}
+
+.img-john img{
+  height: 4rem;
+}
+
+#john{
+  color: red;
+  font-size: x-large;
+}
+
+.testify1{
+  display: flex;
+  margin: 20px 40px 20px 70px;
+}
+
+#uzor img{
+  border-radius: 50px;
+}
+
+.faq{
+  margin-top: 23rem;
+  margin-bottom: 8rem;
+  color: black;
+  text-align: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.faq1{
+  background-color: black;
+ 
+  
+}
+
+.faq-border{
+  margin-left: 19rem;
+  margin-right: 18rem;
+  border-bottom: 1px solid white;
+  padding: 3px;
+ 
+}
+
+.accordion {
+  background-color: black;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  text-align: left;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: black;
+  width: 50%;
+  color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  font-size: 15px;
+}
+
+/* footer*/
+
+footer{
+  background-color: black;
+  margin-top: 1.5rem;
+  height: 60vh;
+}
+
+.footer-logo img{
+  margin-top: 1rem;
+}
+
+.footer-container{
+  margin: 15px 40px 20px 70px;
+
+}
+
+.footer-container2{
+  display: flex;
+  color: white;
+  margin-top: 3rem;
+  
+}
+
+
+.footer-email{
+  color: white;
+}
+
+.footer-web3{
+  padding-left: 10rem;
+}
+
+.social-icon{
+  margin-top: 2rem;
+  
+}
+
+.social-icon a{
+font-size: 30px;
+color: white;
+}
+
+#icon2{
+  padding: 0.5rem;
+}
+
+.footer-about li a{
+ text-decoration: none;
+ color: white;
+ font-size: small;
+}
+
+.footer-about li {
+  list-style: none;
+  margin-top: 3px;
+  
+}
+
+.footer-about{
+  margin-top: 2rem;
+
+}
+
+.allright-reserved h3{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
