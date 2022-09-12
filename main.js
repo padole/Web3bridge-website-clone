@@ -1,4 +1,16 @@
 
+// let arrowEl = document.getElementById("arrow")
+
+// arrowEl.onclick = () => {
+//     arrowEl.animate([
+//       {left: '0'},
+//       {left: '50px'},
+//       {left: '0'},
+//     ],{
+//          duration: 700
+        
+//     })
+// }
 //darkmode
 document.getElementById('icon').onclick =myfunction;
 function myfunction(){
